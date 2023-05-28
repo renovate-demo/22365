@@ -5,7 +5,7 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
 
 [versions]
-plainOkHttp                  = "4.9.0"
+plainOkHttp                  = "4.11.0"
 dash-official-mssql     = "11.2.0.jre17"
 mixed-sl-f4j-api        = "1.7.35"
 underscores_only_kotlin = "1.8.10"
