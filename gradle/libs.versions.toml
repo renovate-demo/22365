@@ -6,7 +6,7 @@
 
 [versions]
 plainOkHttp                  = "4.9.0"
-dash-official-mssql     = "11.2.0.jre17"
+dash-official-mssql     = "12.2.0.jre11"
 mixed-sl-f4j-api        = "1.7.35"
 underscores_only_kotlin = "1.8.10"
 
