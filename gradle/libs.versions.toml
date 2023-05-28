@@ -8,7 +8,7 @@
 plainOkHttp                  = "4.9.0"
 dash-official-mssql     = "11.2.0.jre17"
 mixed-sl-f4j-api        = "1.7.35"
-underscores_only_kotlin = "1.8.10"
+underscores_only_kotlin = "1.8.21"
 
 [libraries]
 okHttp         = { module = "com.squareup.okhttp3:okhttp", version.ref = "plainOkHttp" }
