@@ -1,0 +1,19 @@
+# https://docs.gradle.org/current/userguide/platforms.html
+# Current issues:
+# Idea highlight libs import as an issue because of https://github.com/gradle/gradle/issues/22797
+# More about toml format:
+# https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
+
+[versions]
+plainOkHttp                  = "4.9.0"
+dash-official-mssql     = "11.2.0.jre17"
+mixed-sl-f4j-api        = "1.7.35"
+underscores_only_kotlin = "1.8.10"
+
+[libraries]
+okHttp         = { module = "com.squareup.okhttp3:okhttp", version.ref = "plainOkHttp" }
+official-mssql = { group = "com.microsoft.sqlserver", name = "mssql-jdbc", version.ref = "dash-official-mssql" }
+slf4j_api      = { module = "org.slf4j:slf4j-api", version.ref = "mixed-sl.f4j_api" }
+
+[plugins]
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "underscores_only_kotlin" }
